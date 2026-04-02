@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Eluency",
+    "slug": "eluency-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "androidStatusBar": {
+      "hidden": false,
+      "translucent": false,
+      "backgroundColor": "#FFFFFF",
+      "barStyle": "dark-content"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Eluency to select images for lesson pack covers."
+        }
+      ],
+      "expo-font",
+      "expo-asset",
+      "expo-audio"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "apiBaseUrl": "https://www.eluency.com"
+    }
+  }
+}
